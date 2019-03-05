@@ -15,6 +15,16 @@ var f = [];
 //       return f[n];
 //     return
 // }
+var iArray = forEach
+
+for (var i = n; i === 1; i -= 1) {
+
+}
+
+
+
+
+
 
 var factorialsResult = function (n) {
   if (n === 2) {
@@ -23,6 +33,32 @@ var factorialsResult = function (n) {
     return 1;
   }
 };
+
+
+
+
+
+
+// Ryan logic
+var counter = 1;
+var factorial = function(n) {
+  for (var i = n; i > 1; i--) {
+    counter = counter * i;
+  }
+};
+
+factorial(5);
+
+console.log(counter);
+
+// ryan logic ends
+var counter = 1;
+for (var i = n; i === 1; i--) {
+  counter = counter * i;
+}
+
+console.log(counter);
+
 
 
 
