@@ -7,32 +7,32 @@
 //   }
 // };
 
-var f = [];
-// var factorialsResult = function(n) {
-//     if (n == 0 || n == 1)
-//       return 1;
-//     else if (f[n] > 0)
-//       return f[n];
-//     return
+// var f = [];
+// // var factorialsResult = function(n) {
+// //     if (n == 0 || n == 1)
+// //       return 1;
+// //     else if (f[n] > 0)
+// //       return f[n];
+// //     return
+// // }
+// var iArray = forEach
+//
+// for (var i = n; i === 1; i -= 1) {
+//
 // }
-var iArray = forEach
-
-for (var i = n; i === 1; i -= 1) {
-
-}
 
 
 
 
 
 
-var factorialsResult = function (n) {
-  if (n === 2) {
-    return n * (n-1);
-  } else if (n === 0 || n === 1) {
-    return 1;
-  }
-};
+// var factorialsResult = function (n) {
+//   if (n === 2) {
+//     return n * (n-1);
+//   } else if (n === 0 || n === 1) {
+//     return 1;
+//   }
+// };
 
 
 
@@ -40,24 +40,29 @@ var factorialsResult = function (n) {
 
 
 // Ryan logic
-var counter = 1;
-var factorial = function(n) {
-  for (var i = n; i > 1; i--) {
-    counter = counter * i;
-  }
-};
+// var counter = 1;
+// var factorial = function(n) {
+//   for (var i = n; i > 1; i--) {
+//     counter = counter * i;
+//   }
+// };
 
-factorial(5);
 
-console.log(counter);
+
+
 
 // ryan logic ends
-var counter = 1;
-for (var i = n; i === 1; i--) {
-  counter = counter * i;
+function factorialsResult(n) {
+  var counter = 1;
+  for (var i = 1; i <= n; i++) {
+    counter *= i;
+  }
+  return counter;
+  console.log(counter);
 }
 
-console.log(counter);
+
+
 
 
 
